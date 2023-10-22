@@ -1,3 +1,4 @@
 /build
 /essence_nlp.egg-info
 /dist
+/src/essence_nlp/essence/target
