@@ -1,6 +1,10 @@
 import ctypes
 import platform
+import subprocess
 import os
+
+def setup_rust():
+    subprocess.run(["cargo", "build", "--release"], cwd=os.path.join(os.path.dirname(__file__), 'essence'))
 
 def get_shared_library():
     # Determine the correct shared library extension for the current platform
@@ -8,7 +12,11 @@ def get_shared_library():
     
     # Construct the path to the shared library
     lib_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'essence/target/release', f'libessence{ext}'))
-
+    
+    if not os.path.exists(lib_path):
+        setup_rust()
+        lib_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'essence/target/release', f'libessence{ext}'))
+    
 
 
     lib = ctypes.CDLL(lib_path)
