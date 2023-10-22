@@ -1,10 +1,10 @@
-# Essence NLP
+# Essence
 [![pypiv](https://img.shields.io/pypi/v/essence-nlp.svg)](https://pypi.python.org/pypi/essence-nlp)
 [![pyv](https://img.shields.io/pypi/pyversions/essence-nlp.svg)](https://pypi.python.org/pypi/essence-nlp)
 [![Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/csurfer/essence-nlp/master/LICENSE)
 [![Downloads](https://pepy.tech/badge/essence-nlp)](https://pepy.tech/project/essence-nlp)
 
-Essence NLP is string processing library designed for advanced Natural Language Processing (NLP) and Generative AI tasks. Built in Rust, bridged to Python.
+Essence is string processing library designed for advanced Natural Language Processing (NLP) and Generative AI tasks. Built in Rust, bridged to Python.
 
 ## Features
 - **Error Correction**: Enhances text accuracy by correcting spelling and grammatical errors
