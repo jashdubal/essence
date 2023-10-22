@@ -18,16 +18,17 @@ Essence NLP is string processing library designed for advanced Natural Language 
 Before installing Essence NLP, ensure that you have Rust and Python installed on your system.
 
 1. Install Rust:
-   - Visit [https://rustup.rs/](https://rustup.rs/) and follow the instructions.
+- Visit [https://rustup.rs/](https://rustup.rs/) and follow the instructions.
 
 2. Install Python:
-   - Download and install Python from [https://www.python.org/downloads/](https://www.python.org/downloads/).
+- Download and install Python from [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
 3. Install Essence NLP via pip:
-   ```bash
-   pip install essence-nlp
-   # or
-   pip3 install essence-nlp
+```bash
+pip install essence-nlp
+# or
+pip3 install essence-nlp
+```
 
 ## Usage
 
