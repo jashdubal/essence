@@ -15,7 +15,7 @@
    </a>
 </p>
 
-essence is string processing library designed for advanced Natural Language Processing (NLP) and Generative AI tasks. Built in Rust, bridged to Python.
+String processing library designed for advanced Natural Language Processing (NLP) and Generative AI tasks. Built in Rust, bridged to Python.
 
 ## Features
 - **Error Correction**: Enhances text accuracy by correcting spelling and grammatical errors
