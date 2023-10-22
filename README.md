@@ -53,5 +53,5 @@ print(keywords)  # Output: 'im designing smart machine learning system: 36\nsoft
 Coming soon...
 
 ## Credits
-[nlprule](https://github.com/bminixhofer/nlprule)
-[RAKE](https://github.com/csurfer/rake-nltk)
+- [nlprule](https://github.com/bminixhofer/nlprule)
+- [RAKE](https://github.com/csurfer/rake-nltk)
