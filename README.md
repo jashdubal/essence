@@ -1,10 +1,21 @@
-# Essence
-[![pypiv](https://img.shields.io/pypi/v/essence-nlp.svg)](https://pypi.python.org/pypi/essence-nlp)
-[![pyv](https://img.shields.io/pypi/pyversions/essence-nlp.svg)](https://pypi.python.org/pypi/essence-nlp)
-[![Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jashdubal/essence/blob/main/LICENSE)
-[![Downloads](https://pepy.tech/badge/essence-nlp)](https://pepy.tech/project/essence-nlp)
+<h1 align="center">essence</h1>
 
-Essence is string processing library designed for advanced Natural Language Processing (NLP) and Generative AI tasks. Built in Rust, bridged to Python.
+<p align="center">
+  <a href="https://pypi.python.org/pypi/essence-nlp">
+      <img alt="PyPI" src="https://img.shields.io/pypi/v/essence-nlp.svg">
+   </a>
+   <a href="https://pypi.python.org/pypi/essence-nlp">
+         <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/essence-nlp.svg">
+   </a>
+   <a href="https://github.com/jashdubal/essence/blob/main/LICENSE">
+         <img alt="GitHub" src="https://img.shields.io/github/license/jashdubal/essence">
+   </a>
+   <a href="https://pepy.tech/project/essence-nlp">
+         <img alt="Downloads" src="https://pepy.tech/badge/essence-nlp">
+   </a>
+</p>
+
+essence is string processing library designed for advanced Natural Language Processing (NLP) and Generative AI tasks. Built in Rust, bridged to Python.
 
 ## Features
 - **Error Correction**: Enhances text accuracy by correcting spelling and grammatical errors
@@ -15,7 +26,7 @@ Essence is string processing library designed for advanced Natural Language Proc
 
 ## Installation
 
-Before installing Essence, ensure that you have Rust and Python installed on your system.
+Before installing essence, ensure that you have Rust and Python installed on your system.
 
 1. Install Rust:
    - Visit [https://rustup.rs/](https://rustup.rs/) and follow the instructions.
@@ -23,7 +34,7 @@ Before installing Essence, ensure that you have Rust and Python installed on you
 2. Install Python:
    - Download and install Python from [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
-3. Install Essence via pip:
+3. Install essence via pip:
 ```bash
 pip install essence-nlp
 # or
